@@ -1,4 +1,4 @@
-
+# ERC-20 Dex Trades DB Example
 
 ## Activation Steps
 ### Activate
@@ -8,6 +8,11 @@ source env/bin/activate
 ### Deactivate
 ```
 deactivate
+```
+
+## start server
+```
+uvicorn app.main:app --port 3000 --reload
 ```
 
 ## File Structure
@@ -23,3 +28,8 @@ deactivate
    │       └── user_view.py
    └── main.py
 ```
+
+## endpoints
+
+/create : create the db
+/getholder/{tokenAddress} : retrive all holders of the token
