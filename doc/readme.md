@@ -11,12 +11,15 @@ deactivate
 ```
 
 ## File Structure
-code/
-├── app/
-│   ├── controllers/
-│   │   └── user_controller.py
-│   ├── models/
-│   │   └── user.py
-│   └── views/
-│       └── user_view.py
-└── main.py
+
+```bash
+   code
+   ├── app
+   │   ├── controllers
+   │   │   └── user_controller.py
+   │   ├── models
+   │   │   └── user.py
+   │   └── views
+   │       └── user_view.py
+   └── main.py
+```
